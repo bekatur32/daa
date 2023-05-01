@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+def ttt(request):
+    return render(request,'ttt.html')
 def contacts(request):
     return render(request,'contacts.html')
 def home_page(request):
